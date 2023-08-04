@@ -1,10 +1,12 @@
 package Application;
 
+import Tabuleiro.Quadro;
+
 import java.sql.SQLOutput;
 
 public class Program {
     public static void main(String[] args) {
 
-        System.out.println("hello word");
+        Quadro quadro= new Quadro(8, 8);
     }
 }
